@@ -19,3 +19,15 @@ O Precision mede a proporção de verdadeiros positivos ( tumores corretamente i
 
 O Recall mede a proporção de verdadeiros positivos identificados entre todos os casos reais de malignidade (verdadeiros positivos + falsos negativos). Essa métrica é fundamental quando o custo de um falso negativo é alto, como em casos onde deixar de identificar um tumor maligno pode ter consequências graves.
 
+Entre os quatro algoritmos testados, o Random Forest apresentou o melhor desempenho em termos das métricas. O Precision alto de 98% assegura que a maioria das predições de malignidade estejam corretas, enquanto um Recall elevado com 95% garante que a maioria dos casos malignos sejam corretamente identificados. O Random Forest se destacou por sua capacidade de equilibrar essas duas métricas, proporcionando um modelo confiável para a predição da natureza dos tumores. 
+
+O gráfico da curva Precision-Recall mostra que o desempenho no treino é refletido quase que perfeitamente no teste, o que é um indicativo de que o modelo será robusto ao ser aplicado em dados novos.
+
+Com o modelo ajustado, o impacto na assertividade no diagnóstico irá permitir que os médicos definam o tratamento mais adequado para o paciente. Se o tumor for benigno, tratamentos invasivos e desnecessários podem ser evitados. Se for maligno, um diagnóstico preciso garante que o tratamento seja iniciado rapidamente, aumentando as chances de sucesso.
+
+Para os pacientes, receber um diagnóstico preciso é fundamental para reduzir a ansiedade e o estresse associados à incerteza. Saber exatamente a natureza do tumor ajuda a tranquilizar o paciente ou a prepará-lo mentalmente para os próximos passos do tratamento.
+
+Por fim, a assertividade no diagnóstico do câncer de mama é essencial para garantir que os pacientes recebam o tratamento certo no momento certo, melhorando assim as taxas de cura e a qualidade de vida.
+
+
+
